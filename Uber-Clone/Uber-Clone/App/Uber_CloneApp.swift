@@ -16,6 +16,7 @@ struct Uber_CloneApp: App {
         WindowGroup {
             HomeView()
                 .environmentObject(locationViewModel)
+                .preferredColorScheme(.light)
         }
     }
 }
