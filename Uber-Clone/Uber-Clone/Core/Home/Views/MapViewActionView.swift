@@ -42,6 +42,7 @@ struct MapViewActionView: View {
             viewModel.selectedUberLocation = nil
         }
         
+        
     }
     
     func imageNameForState(_ state: MapViewState) -> String{
